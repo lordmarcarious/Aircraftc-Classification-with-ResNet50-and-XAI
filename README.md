@@ -67,7 +67,7 @@ Structure: Extract the contents into a folder named aircraft_data/ in the projec
 
 Verification: Ensure the path structure matches: Aircraftc-Classification.../aircraft_data/data/images/.
 
-Weights: Download Pre-trained weights (strict_aircraft_model.pth) and place it in the project directory. It is required for XAI analysis without retraining. [https://drive.google.com/file/d/1sMFL0caLPRvkAOJ5-l1AbIKa1-rG6RSG/view?usp=sharing]
+Weights: Download Pre-trained weights (strict_aircraft_model.pth) and place it in the project directory. It is required for XAI analysis without retraining. [https://drive.google.com/file/d/1yaafrvmFbzQAnQvZNdTSB2aPuvqhqa1v/view?usp=sharing]
 
 4. 📂 Directory Structure
 ```text
