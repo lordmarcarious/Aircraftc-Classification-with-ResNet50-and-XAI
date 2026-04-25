@@ -1,0 +1,4 @@
+aircraft_data/
+*.pth
+.ipynb_checkpoints/
+anaconda_projects/
