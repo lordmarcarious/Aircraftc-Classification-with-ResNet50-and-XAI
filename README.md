@@ -42,7 +42,7 @@ To replicate this environment and run the models, follow these steps:
 Open your terminal or command prompt and run:
 ```bash
 git clone [https://github.com/lordmarcarious/Aircraft-Classification-with-ResNet50-and-XAI.git](https://github.com/lordmarcarious/Aircraft-Classification-with-ResNet50-and-XAI.git)
-cd Aircraftc-Classification-with-ResNet50-and-XAI
+cd Aircraft-Classification-with-ResNet50-and-XAI
 ```
 
 # Setup environment
@@ -87,7 +87,6 @@ Aviation-Vision-XAI/
     ├── confusion_matrix.png
     └── Grad-CAM_Heatmap.png
     └── confidence_grid.png
-
 ```
 ## 🛠️ Challenges & Engineering Solutions
 
