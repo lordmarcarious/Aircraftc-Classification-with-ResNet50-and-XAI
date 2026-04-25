@@ -17,11 +17,11 @@ By optimizing a **ResNet-50** architecture, this project achieved a **72.37% Tes
 
 ### 1. The Learning Journey
 The model showed strong convergence. The "Generalization Gap" was successfully managed through aggressive regularization and dynamic learning rate adjustments.
-![Learning Curves](results/your_learning_curve.png)
+![Learning Curves](results/learning_curve.png)
 
 ### 2. Explainable AI (Grad-CAM)
 Using Grad-CAM, we validated that the model is making decisions based on critical aviation features (engines, winglets, nose geometry) rather than background noise.
-![Grad-CAM Heatmap](results/your_heatmap.png)
+![Grad-CAM Heatmap](results/gradcam_Heatmap.png)
 
 ### 3. Error Analysis
 The Confusion Matrix revealed that 85% of errors were "within-family" (e.g., confusing variants of the same airframe), proving the model's high-level structural understanding.
@@ -67,7 +67,7 @@ Structure: Extract the contents into a folder named aircraft_data/ in the projec
 
 Verification: Ensure the path structure matches: Aircraftc-Classification.../aircraft_data/data/images/.
 
-Weights: Download Pre-trained weights (strict_aircraft_model.pth) and place it in the project directory.It is required for XAI analysis without retraining. [https://drive.google.com/file/d/1sMFL0caLPRvkAOJ5-l1AbIKa1-rG6RSG/view?usp=sharing]
+Weights: Download Pre-trained weights (strict_aircraft_model.pth) and place it in the project directory. It is required for XAI analysis without retraining. [https://drive.google.com/file/d/1sMFL0caLPRvkAOJ5-l1AbIKa1-rG6RSG/view?usp=sharing]
 
 4. 📂 Directory Structure
 ```text
@@ -85,7 +85,7 @@ Aviation-Vision-XAI/
 └── results/                                    # Exported Visualizations
     ├── learning_curve.png
     ├── confusion_matrix.png
-    └── Grad-CAM_Heatmap.png
+    └── gradcam_Heatmap.png
     └── confidence_grid.png
 ```
 ## 🛠️ Challenges & Engineering Solutions
