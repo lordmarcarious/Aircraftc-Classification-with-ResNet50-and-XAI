@@ -95,10 +95,6 @@ Aviation-Vision-XAI/
 | **Hardware Constraints** | Resolved t-SNE memory bottlenecks by applying a **PCA Dimensionality Funnel** (2048D → 50D) before final manifold embedding, preventing system deadlocks. |
 | **Session Persistence** | Developed an **Automated Memory Bank** system to track and plot training history dynamically, ensuring data continuity across kernel restarts. |
 
-## 🎓 Future Work
-- **Architectural Shift:** Transitioning from CNNs to **Vision Transformers (ViT)** to better capture long-range spatial dependencies in aircraft geometry.
-- **Advanced Augmentation:** Implementing **Synthetic Minority Over-sampling (SMOTE)** or Generative Adversarial Networks (GANs) to address the limited sample size per class.
-- **Deployment:** Developing a lightweight inference API using **FastAPI** for real-time aircraft identification.
 
 
 
