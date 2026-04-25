@@ -24,7 +24,7 @@ Using Grad-CAM, we validated that the model is making decisions based on critica
 ![Grad-CAM Heatmap](results/gradcam_Heatmap.png)
 
 ### 3. Error Analysis
-The Confusion Matrix revealed that 85% of errors were "within-family" (e.g., confusing variants of the same airframe), proving the model's high-level structural understanding.
+The Confusion Matrix revealed that 85% of errors were "within-family" (e.g., confusing variants of the same airframe), proving the model's high-level structural understanding.![Confusion Matrix](results/confusion_matrix.png)
 
 ## 📥 Getting Started
 
