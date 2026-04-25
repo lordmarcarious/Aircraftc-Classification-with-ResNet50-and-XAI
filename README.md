@@ -4,7 +4,7 @@
 ## 📌 Project Overview
 This research project focuses on the challenge of **Fine-Grained Visual Classification (FGVC)**. Distinguishing between nearly identical aircraft variants (e.g., Boeing 737-300 vs 737-500) requires a model that moves beyond general shape recognition into specific structural feature extraction.
 
-By optimizing a **ResNet-50** architecture, this project achieved a **71.3% Test Accuracy** on the FGVC-Aircraft dataset, significantly outperforming standard baseline implementations.
+By optimizing a **ResNet-50** architecture, this project achieved a **71.56% Test Accuracy** on the FGVC-Aircraft dataset, significantly outperforming standard baseline implementations.
 
 ## 🛠️ Technical Stack
 - **Framework:** PyTorch
