@@ -72,12 +72,13 @@ Weights: Download Pre-trained weights (strict_aircraft_model.pth) and place it i
 4. 📂 Directory Structure
 ```text
 Aviation-Vision-XAI/
-├── Aircraft-Classification-ResNet50-XAI.ipynb  # Main Analysis & Training
-├── requirements.txt                            # Dependencies
-├── .gitignore                                  # Excludes data/weights from Git
-├── strict_aircraft_model.pth                  # Model Weights (Manual Download)
-├── aircraft_data/                              # Dataset Folder (Manual Download)
-│   └── fgvc-aircraft-2013b/
+├── Aircraft-Classification-ResNet50-XAI.ipynb  
+├── requirements.txt                            # Dependencies and libraries
+├── README.md                            
+├── .gitignore                                  
+├── strict_aircraft_model.pth                   # Model Weights (Manual Download from drive)
+├── aircraft_data/                              # Dataset Folder 
+│   └── fgvc-aircraft-2013b/                    # (Manual Download)
 │       └── data/
 │           ├── images/                         # 10,000+ images
 │           └── variants.txt                    # Class labels
