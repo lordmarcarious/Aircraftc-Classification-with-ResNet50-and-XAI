@@ -86,6 +86,8 @@ Aviation-Vision-XAI/
     ├── learning_curve.png
     ├── confusion_matrix.png
     └── Grad-CAM_Heatmap.png
+    └── confidence_grid.png
+
 ```
 ## 🛠️ Challenges & Engineering Solutions
 
